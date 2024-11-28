@@ -1,3 +1,3 @@
 # TPs 
-# vous trouverez dans ce dossiers mes TPs
+# vous trouverez dans ce dossier mes TPs
 # Eya Guizani
