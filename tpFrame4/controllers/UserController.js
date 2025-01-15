@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 const User = require('../models/User');
+=======
+const User = require('./models/user');
+>>>>>>> 9f17b0f80de0f50674fb74c2adef2adc37ac9d99
 const jwt = require ('jsonwebtoken');
 
 
