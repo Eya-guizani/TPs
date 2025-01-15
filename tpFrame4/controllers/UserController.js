@@ -1,4 +1,4 @@
-const User = require('./models/User');
+const User = require('../models/User');
 const jwt = require ('jsonwebtoken');
 
 
@@ -13,13 +13,13 @@ try {
      res.status(201).json({ message: 'Utilisateur créé avec succès' });
     } 
     catch (error) {
-     res.status(400).json({ message: error.message });
+     res. status (400).json ({ message: error.message });
     } 
 
 };
 
 
-// Connexion d'un utilisateur existant
+// Connexion d'un utilisateur existant 
 
 exports.loginUser = async (req, res) => {
     const { username, password } = req.body;
